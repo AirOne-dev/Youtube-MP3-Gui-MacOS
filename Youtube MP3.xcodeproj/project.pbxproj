@@ -20,6 +20,7 @@
 		AE849AB02876405B007F9A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE849AB32876405B007F9A65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE849AB52876405B007F9A65 /* Youtube_MP3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Youtube_MP3.entitlements; sourceTree = "<group>"; };
+		AE849ABB287650B8007F9A65 /* Youtube-MP3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Youtube-MP3-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		AE849AAB28764059007F9A65 /* Youtube MP3 */ = {
 			isa = PBXGroup;
 			children = (
+				AE849ABB287650B8007F9A65 /* Youtube-MP3-Info.plist */,
 				AE849AAC28764059007F9A65 /* Youtube_MP3App.swift */,
 				AE849AAE28764059007F9A65 /* ContentView.swift */,
 				AE849AB02876405B007F9A65 /* Assets.xcassets */,
@@ -274,6 +276,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Youtube-MP3-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +304,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Youtube-MP3-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
